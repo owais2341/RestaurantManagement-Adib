@@ -1,7 +1,7 @@
 RestaurantReservationSystem-1.0-SNAPSHOT
 
 # Use a base image with Java runtime
-FROM openjdk:11-jre-slim
+FROM openjdk:18-jdk-slim
 
 # Set the working directory
 WORKDIR /app
