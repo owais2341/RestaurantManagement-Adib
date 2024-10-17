@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.JavaProj.RestaurantManagerImplTest" time="0.139" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.JavaProj.RestaurantManagerImplTest" time="0.117" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\test-classes;C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\classes;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-sync\4.3.4\mongodb-driver-sync-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\bson\4.3.4\bson-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-core\4.3.4\mongodb-driver-core-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.3\spring-boot-starter-web-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.3\spring-boot-starter-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot\2.7.3\spring-boot-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.3\spring-boot-autoconfigure-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.3\spring-boot-starter-logging-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\smowais.ali\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-core\5.3.22\spring-core-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-jcl\5.3.22\spring-jcl-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.3\spring-boot-starter-json-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.3\spring-boot-starter-tomcat-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-web\5.3.22\spring-web-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-beans\5.3.22\spring-beans-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-webmvc\5.3.22\spring-webmvc-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-aop\5.3.22\spring-aop-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-context\5.3.22\spring-context-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-expression\5.3.22\spring-expression-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.7.3\spring-boot-starter-data-mongodb-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-mongodb\3.4.2\spring-data-mongodb-3.4.2.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-tx\5.3.22\spring-tx-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-commons\2.7.2\spring-data-commons-2.7.2.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-inline\5.0.0\mockito-inline-5.0.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;"/>
+    <property name="java.class.path" value="C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\test-classes;C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\classes;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-sync\4.3.4\mongodb-driver-sync-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\bson\4.3.4\bson-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-core\4.3.4\mongodb-driver-core-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-server\11.0.11\jetty-server-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\toolchain\jetty-jakarta-servlet-api\5.0.2\jetty-jakarta-servlet-api-5.0.2.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-http\11.0.11\jetty-http-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-util\11.0.11\jetty-util-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-io\11.0.11\jetty-io-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha6\slf4j-api-2.0.0-alpha6.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-servlet\11.0.14\jetty-servlet-11.0.14.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-security\11.0.14\jetty-security-11.0.14.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.3\spring-boot-starter-web-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.3\spring-boot-starter-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot\2.7.3\spring-boot-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.3\spring-boot-autoconfigure-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.3\spring-boot-starter-logging-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\smowais.ali\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-core\5.3.22\spring-core-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-jcl\5.3.22\spring-jcl-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.3\spring-boot-starter-json-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.3\spring-boot-starter-tomcat-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-web\5.3.22\spring-web-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-beans\5.3.22\spring-beans-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-webmvc\5.3.22\spring-webmvc-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-aop\5.3.22\spring-aop-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-context\5.3.22\spring-context-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-expression\5.3.22\spring-expression-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.7.3\spring-boot-starter-data-mongodb-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-mongodb\3.4.2\spring-data-mongodb-3.4.2.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-tx\5.3.22\spring-tx-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-commons\2.7.2\spring-data-commons-2.7.2.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-inline\5.0.0\mockito-inline-5.0.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\smowais.ali\.m2\repository\org\json\json\20210307\json-20210307.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-22.0.0.36-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\smowais.ali\AppData\Local\Temp\surefire11437827825717140439\surefirebooter-20240924190055628_3.jar C:\Users\smowais.ali\AppData\Local\Temp\surefire11437827825717140439 2024-09-24T19-00-55_476-jvmRun1 surefire-20240924190055628_1tmp surefire_0-20240924190055628_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\smowais.ali\AppData\Local\Temp\surefire14257467328908762422\surefirebooter-20241017153257267_3.jar C:\Users\smowais.ali\AppData\Local\Temp\surefire14257467328908762422 2024-10-17T15-32-57_109-jvmRun1 surefire-20241017153257267_1tmp surefire_0-20241017153257267_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\test-classes;C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\classes;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-sync\4.3.4\mongodb-driver-sync-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\bson\4.3.4\bson-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-core\4.3.4\mongodb-driver-core-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.3\spring-boot-starter-web-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.3\spring-boot-starter-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot\2.7.3\spring-boot-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.3\spring-boot-autoconfigure-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.3\spring-boot-starter-logging-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\smowais.ali\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-core\5.3.22\spring-core-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-jcl\5.3.22\spring-jcl-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.3\spring-boot-starter-json-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.3\spring-boot-starter-tomcat-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-web\5.3.22\spring-web-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-beans\5.3.22\spring-beans-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-webmvc\5.3.22\spring-webmvc-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-aop\5.3.22\spring-aop-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-context\5.3.22\spring-context-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-expression\5.3.22\spring-expression-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.7.3\spring-boot-starter-data-mongodb-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-mongodb\3.4.2\spring-data-mongodb-3.4.2.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-tx\5.3.22\spring-tx-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-commons\2.7.2\spring-data-commons-2.7.2.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-inline\5.0.0\mockito-inline-5.0.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\test-classes;C:\Users\smowais.ali\Java\RestaurantReservationSystem\target\classes;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\smowais.ali\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-sync\4.3.4\mongodb-driver-sync-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\bson\4.3.4\bson-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\mongodb\mongodb-driver-core\4.3.4\mongodb-driver-core-4.3.4.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-server\11.0.11\jetty-server-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\toolchain\jetty-jakarta-servlet-api\5.0.2\jetty-jakarta-servlet-api-5.0.2.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-http\11.0.11\jetty-http-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-util\11.0.11\jetty-util-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-io\11.0.11\jetty-io-11.0.11.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha6\slf4j-api-2.0.0-alpha6.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-servlet\11.0.14\jetty-servlet-11.0.14.jar;C:\Users\smowais.ali\.m2\repository\org\eclipse\jetty\jetty-security\11.0.14\jetty-security-11.0.14.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.3\spring-boot-starter-web-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.3\spring-boot-starter-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot\2.7.3\spring-boot-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.3\spring-boot-autoconfigure-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.3\spring-boot-starter-logging-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\smowais.ali\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\smowais.ali\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-core\5.3.22\spring-core-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-jcl\5.3.22\spring-jcl-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.3\spring-boot-starter-json-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.3\spring-boot-starter-tomcat-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-web\5.3.22\spring-web-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-beans\5.3.22\spring-beans-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-webmvc\5.3.22\spring-webmvc-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-aop\5.3.22\spring-aop-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-context\5.3.22\spring-context-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-expression\5.3.22\spring-expression-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.7.3\spring-boot-starter-data-mongodb-2.7.3.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-mongodb\3.4.2\spring-data-mongodb-3.4.2.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\spring-tx\5.3.22\spring-tx-5.3.22.jar;C:\Users\smowais.ali\.m2\repository\org\springframework\data\spring-data-commons\2.7.2\spring-data-commons-2.7.2.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\smowais.ali\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\smowais.ali\.m2\repository\org\mockito\mockito-inline\5.0.0\mockito-inline-5.0.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\smowais.ali\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\smowais.ali\.m2\repository\org\json\json\20210307\json-20210307.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\smowais.ali"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\smowais.ali\AppData\Local\Temp\surefire11437827825717140439\surefirebooter-20240924190055628_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\smowais.ali\AppData\Local\Temp\surefire14257467328908762422\surefirebooter-20241017153257267_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22+36"/>
@@ -59,130 +59,261 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testRemoveRestaurant" classname="com.JavaProj.RestaurantManagerImplTest" time="0.021">
-    <system-out><![CDATA[19:00:56.786 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.787 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.789 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.791 [cluster-ClusterId{value='66f2c618cd420662ec667a33', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:212}] to localhost:27017
-19:00:56.791 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a33', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:211}] to localhost:27017
-19:00:56.791 [cluster-ClusterId{value='66f2c618cd420662ec667a33', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2439600}
-19:00:56.791 [cluster-ClusterId{value='66f2c618cd420662ec667a33', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.4 ms, state=CONNECTED}]
-19:00:56.791 [cluster-ClusterId{value='66f2c618cd420662ec667a33', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.795 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:213}] to localhost:27017
-19:00:56.795 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.796 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"insert": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "UMWBaz2wQo2LIvRB6a4NzQ==", "subType": "04"}}}, "documents": [{"_id": "R1", "name": "The Grill", "address": "123 Main St", "capacity": 100, "open_time": "11:00", "close_time": "23:00"}]}' with request id 27 to database RestaurantReservationSystem on connection [connectionId{localValue:12, serverValue:213}] to server localhost:27017
-19:00:56.797 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 27 completed successfully in 1.96 ms on connection [connectionId{localValue:12, serverValue:213}] to server localhost:27017
-19:00:56.798 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.799 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "UMWBaz2wQo2LIvRB6a4NzQ==", "subType": "04"}}}, "deletes": [{"q": {"_id": "R1"}, "limit": 1}]}' with request id 28 to database RestaurantReservationSystem on connection [connectionId{localValue:12, serverValue:213}] to server localhost:27017
-19:00:56.801 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 28 completed successfully in 1.73 ms on connection [connectionId{localValue:12, serverValue:213}] to server localhost:27017
-19:00:56.802 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.803 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "UMWBaz2wQo2LIvRB6a4NzQ==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 29 to database RestaurantReservationSystem on connection [connectionId{localValue:12, serverValue:213}] to server localhost:27017
-19:00:56.805 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 29 completed successfully in 1.84 ms on connection [connectionId{localValue:12, serverValue:213}] to server localhost:27017
+  <testcase name="testRemoveRestaurant" classname="com.JavaProj.RestaurantManagerImplTest" time="0.02">
+    <system-out><![CDATA[Restaurant added successfully with ID: R1
 ]]></system-out>
   </testcase>
-  <testcase name="testValidateParametersInvalidCapacity" classname="com.JavaProj.RestaurantManagerImplTest" time="0.014">
-    <system-out><![CDATA[19:00:56.808 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.809 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.812 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.813 [cluster-ClusterId{value='66f2c618cd420662ec667a34', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:13, serverValue:214}] to localhost:27017
-19:00:56.813 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a34', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:14, serverValue:215}] to localhost:27017
-19:00:56.813 [cluster-ClusterId{value='66f2c618cd420662ec667a34', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2361000}
-19:00:56.813 [cluster-ClusterId{value='66f2c618cd420662ec667a34', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.4 ms, state=CONNECTED}]
-19:00:56.814 [cluster-ClusterId{value='66f2c618cd420662ec667a34', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.818 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:15, serverValue:216}] to localhost:27017
-19:00:56.819 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.819 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "FcxhGGJtR7KuAiV2EToA1A==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 34 to database RestaurantReservationSystem on connection [connectionId{localValue:15, serverValue:216}] to server localhost:27017
-19:00:56.821 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 34 completed successfully in 1.25 ms on connection [connectionId{localValue:15, serverValue:216}] to server localhost:27017
+  <testcase name="testValidateParametersInvalidCapacity" classname="com.JavaProj.RestaurantManagerImplTest" time="0.012">
+    <system-err><![CDATA[java.lang.RuntimeException: Capacity must be a positive number.
+	at com.JavaProj.RestaurantManagerImpl.validateParameters(RestaurantManagerImpl.java:116)
+	at com.JavaProj.RestaurantManagerImpl.addRestaurant(RestaurantManagerImpl.java:26)
+	at com.JavaProj.RestaurantManagerImplTest.lambda$testValidateParametersInvalidCapacity$0(RestaurantManagerImplTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.JavaProj.RestaurantManagerImplTest.testValidateParametersInvalidCapacity(RestaurantManagerImplTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+  <testcase name="testAddRestaurantValidInputs" classname="com.JavaProj.RestaurantManagerImplTest" time="0.017">
+    <system-out><![CDATA[Restaurant added successfully with ID: R1
 ]]></system-out>
   </testcase>
-  <testcase name="testAddRestaurantValidInputs" classname="com.JavaProj.RestaurantManagerImplTest" time="0.016">
-    <system-out><![CDATA[19:00:56.823 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.824 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.824 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.828 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a35', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:16, serverValue:217}] to localhost:27017
-19:00:56.828 [cluster-ClusterId{value='66f2c618cd420662ec667a35', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:17, serverValue:218}] to localhost:27017
-19:00:56.828 [cluster-ClusterId{value='66f2c618cd420662ec667a35', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2360300}
-19:00:56.828 [cluster-ClusterId{value='66f2c618cd420662ec667a35', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.4 ms, state=CONNECTED}]
-19:00:56.829 [cluster-ClusterId{value='66f2c618cd420662ec667a35', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.832 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:18, serverValue:219}] to localhost:27017
-19:00:56.832 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.833 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"insert": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "wtDwTbB9QJSIOxkLuid7Zw==", "subType": "04"}}}, "documents": [{"_id": "R1", "name": "Sunset Diner", "address": "789 Oak St", "capacity": 50, "open_time": "09:00", "close_time": "17:00"}]}' with request id 39 to database RestaurantReservationSystem on connection [connectionId{localValue:18, serverValue:219}] to server localhost:27017
-19:00:56.834 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 39 completed successfully in 1.64 ms on connection [connectionId{localValue:18, serverValue:219}] to server localhost:27017
-19:00:56.835 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.836 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "wtDwTbB9QJSIOxkLuid7Zw==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 40 to database RestaurantReservationSystem on connection [connectionId{localValue:18, serverValue:219}] to server localhost:27017
-19:00:56.837 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 40 completed successfully in 1.68 ms on connection [connectionId{localValue:18, serverValue:219}] to server localhost:27017
+  <testcase name="testAddRestaurant" classname="com.JavaProj.RestaurantManagerImplTest" time="0.014">
+    <system-out><![CDATA[Restaurant added successfully with ID: R1
 ]]></system-out>
   </testcase>
-  <testcase name="testAddRestaurant" classname="com.JavaProj.RestaurantManagerImplTest" time="0.015">
-    <system-out><![CDATA[19:00:56.840 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.840 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.841 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.843 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a36', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:20, serverValue:220}] to localhost:27017
-19:00:56.843 [cluster-ClusterId{value='66f2c618cd420662ec667a36', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:19, serverValue:221}] to localhost:27017
-19:00:56.844 [cluster-ClusterId{value='66f2c618cd420662ec667a36', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1981800}
-19:00:56.844 [cluster-ClusterId{value='66f2c618cd420662ec667a36', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.0 ms, state=CONNECTED}]
-19:00:56.844 [cluster-ClusterId{value='66f2c618cd420662ec667a36', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.848 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:21, serverValue:222}] to localhost:27017
-19:00:56.848 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.849 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"insert": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "2PpSVKRQRUWwyuDW0np6TQ==", "subType": "04"}}}, "documents": [{"_id": "R1", "name": "The Grill", "address": "123 Main St", "capacity": 100, "open_time": "11:00", "close_time": "23:00"}]}' with request id 45 to database RestaurantReservationSystem on connection [connectionId{localValue:21, serverValue:222}] to server localhost:27017
-19:00:56.851 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 45 completed successfully in 1.95 ms on connection [connectionId{localValue:21, serverValue:222}] to server localhost:27017
-19:00:56.852 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.853 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "2PpSVKRQRUWwyuDW0np6TQ==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 46 to database RestaurantReservationSystem on connection [connectionId{localValue:21, serverValue:222}] to server localhost:27017
-19:00:56.854 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 46 completed successfully in 1.65 ms on connection [connectionId{localValue:21, serverValue:222}] to server localhost:27017
+  <testcase name="testValidateParametersInvalidClosureDate" classname="com.JavaProj.RestaurantManagerImplTest" time="0.013">
+    <system-err><![CDATA[java.lang.RuntimeException: All closure dates must be in the future.
+	at com.JavaProj.RestaurantManagerImpl.validateParameters(RestaurantManagerImpl.java:119)
+	at com.JavaProj.RestaurantManagerImpl.addRestaurant(RestaurantManagerImpl.java:26)
+	at com.JavaProj.RestaurantManagerImplTest.lambda$testValidateParametersInvalidClosureDate$1(RestaurantManagerImplTest.java:63)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.JavaProj.RestaurantManagerImplTest.testValidateParametersInvalidClosureDate(RestaurantManagerImplTest.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+  <testcase name="testModifyRestaurant" classname="com.JavaProj.RestaurantManagerImplTest" time="0.019">
+    <system-out><![CDATA[Restaurant added successfully with ID: R1
+Restaurant added successfully with ID: R2
 ]]></system-out>
   </testcase>
-  <testcase name="testValidateParametersInvalidClosureDate" classname="com.JavaProj.RestaurantManagerImplTest" time="0.02">
-    <system-out><![CDATA[19:00:56.858 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.859 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.860 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.867 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a37', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:22, serverValue:223}] to localhost:27017
-19:00:56.867 [cluster-ClusterId{value='66f2c618cd420662ec667a37', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:23, serverValue:224}] to localhost:27017
-19:00:56.867 [cluster-ClusterId{value='66f2c618cd420662ec667a37', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2167900}
-19:00:56.868 [cluster-ClusterId{value='66f2c618cd420662ec667a37', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.2 ms, state=CONNECTED}]
-19:00:56.868 [cluster-ClusterId{value='66f2c618cd420662ec667a37', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.872 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:24, serverValue:225}] to localhost:27017
-19:00:56.872 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.873 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "Q10QX6ESRJuKpR1tfC6cfw==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 51 to database RestaurantReservationSystem on connection [connectionId{localValue:24, serverValue:225}] to server localhost:27017
-19:00:56.875 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 51 completed successfully in 1.72 ms on connection [connectionId{localValue:24, serverValue:225}] to server localhost:27017
-]]></system-out>
-  </testcase>
-  <testcase name="testModifyRestaurant" classname="com.JavaProj.RestaurantManagerImplTest" time="0.029">
-    <system-out><![CDATA[19:00:56.877 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.878 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.879 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.884 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a38', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:26, serverValue:226}] to localhost:27017
-19:00:56.884 [cluster-ClusterId{value='66f2c618cd420662ec667a38', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:25, serverValue:227}] to localhost:27017
-19:00:56.885 [cluster-ClusterId{value='66f2c618cd420662ec667a38', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4307900}
-19:00:56.885 [cluster-ClusterId{value='66f2c618cd420662ec667a38', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.3 ms, state=CONNECTED}]
-19:00:56.885 [cluster-ClusterId{value='66f2c618cd420662ec667a38', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.892 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:27, serverValue:228}] to localhost:27017
-19:00:56.892 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.894 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"insert": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "ZQifxflqRLmbmD6bXA9XMw==", "subType": "04"}}}, "documents": [{"_id": "R1", "name": "The Grill", "address": "123 Main St", "capacity": 100, "open_time": "11:00", "close_time": "23:00"}]}' with request id 56 to database RestaurantReservationSystem on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.895 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 56 completed successfully in 1.89 ms on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.895 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.896 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "ZQifxflqRLmbmD6bXA9XMw==", "subType": "04"}}}, "deletes": [{"q": {"_id": "R1"}, "limit": 1}]}' with request id 57 to database RestaurantReservationSystem on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.897 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 57 completed successfully in 1.60 ms on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.898 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.900 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"insert": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "ZQifxflqRLmbmD6bXA9XMw==", "subType": "04"}}}, "documents": [{"_id": "R1", "name": "The New Grill", "address": "456 Elm St", "capacity": 150, "open_time": "10:00", "close_time": "22:00"}]}' with request id 58 to database RestaurantReservationSystem on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.901 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 58 completed successfully in 1.49 ms on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.901 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.902 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "ZQifxflqRLmbmD6bXA9XMw==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 59 to database RestaurantReservationSystem on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-19:00:56.903 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 59 completed successfully in 2.23 ms on connection [connectionId{localValue:27, serverValue:228}] to server localhost:27017
-]]></system-out>
-  </testcase>
-  <testcase name="testValidateParametersInvalidOpenCloseTimes" classname="com.JavaProj.RestaurantManagerImplTest" time="0.013">
-    <system-out><![CDATA[19:00:56.907 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-19:00:56.908 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
-19:00:56.910 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-19:00:56.912 [cluster-rtt-ClusterId{value='66f2c618cd420662ec667a39', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:29, serverValue:229}] to localhost:27017
-19:00:56.912 [cluster-ClusterId{value='66f2c618cd420662ec667a39', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:28, serverValue:230}] to localhost:27017
-19:00:56.912 [cluster-ClusterId{value='66f2c618cd420662ec667a39', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2563300}
-19:00:56.913 [cluster-ClusterId{value='66f2c618cd420662ec667a39', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.6 ms, state=CONNECTED}]
-19:00:56.913 [cluster-ClusterId{value='66f2c618cd420662ec667a39', description='null'}-localhost:27017] DEBUG org.mongodb.driver.cluster - Checking status of localhost:27017
-19:00:56.916 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:30, serverValue:231}] to localhost:27017
-19:00:56.916 [main] DEBUG org.mongodb.driver.operation - retryWrites set to true but the server is a standalone server.
-19:00:56.917 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"delete": "restaurants", "ordered": true, "$db": "RestaurantReservationSystem", "lsid": {"id": {"$binary": {"base64": "h1Aj5PQ2Q2aZ6UxKlKbmFg==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}' with request id 64 to database RestaurantReservationSystem on connection [connectionId{localValue:30, serverValue:231}] to server localhost:27017
-19:00:56.919 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 64 completed successfully in 1.60 ms on connection [connectionId{localValue:30, serverValue:231}] to server localhost:27017
-]]></system-out>
+  <testcase name="testValidateParametersInvalidOpenCloseTimes" classname="com.JavaProj.RestaurantManagerImplTest" time="0.011">
+    <system-err><![CDATA[java.lang.RuntimeException: Restaurant must be open for at least 8 hours and close time must be strictly after open time.
+	at com.JavaProj.RestaurantManagerImpl.validateParameters(RestaurantManagerImpl.java:122)
+	at com.JavaProj.RestaurantManagerImpl.addRestaurant(RestaurantManagerImpl.java:26)
+	at com.JavaProj.RestaurantManagerImplTest.lambda$testValidateParametersInvalidOpenCloseTimes$2(RestaurantManagerImplTest.java:71)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.JavaProj.RestaurantManagerImplTest.testValidateParametersInvalidOpenCloseTimes(RestaurantManagerImplTest.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
   </testcase>
 </testsuite>

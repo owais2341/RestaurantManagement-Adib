@@ -40,10 +40,10 @@ public class RestaurantManagerImpl implements RestaurantManager {
             jsonResponse.put("message", "Restaurant added successfully");
             jsonResponse.put("restaurantId", restaurantId);
         
-            return jsonResponse.toString();
+            return restaurantId;
         } catch (Exception e) {
             e.printStackTrace(); // For debugging
-            throw new RuntimeException("Error adding restaurant: " + e.getMessage());
+            throw new RuntimeException(e.getMessage());
         }
     }
     
@@ -67,7 +67,16 @@ public class RestaurantManagerImpl implements RestaurantManager {
     }
     @Override
     public String modifyRestaurant(String restaurantId, String name, String address, int capacity, LocalTime open, LocalTime close, List<LocalDate> closures) {
-        removeRestaurant(restaurantId);
+        if (!restaurantMap.containsKey(restaurantId)) {
+            // Attempt to retrieve from DAO if not found in local cache
+            Restaurant existingRestaurant = restaurantDAO.getRestaurantById(restaurantId);
+            if (existingRestaurant != null) {
+                restaurantMap.put(restaurantId, existingRestaurant); // Cache it
+            } else {
+                throw new RuntimeException("Restaurant with ID " + restaurantId + " does not exist.");
+            }
+        }
+        // Now, we can safely modify
         return addRestaurant(name, address, capacity, open, close, closures);
     }
 
@@ -86,7 +95,17 @@ public class RestaurantManagerImpl implements RestaurantManager {
 
     @Override
     public Restaurant getRestaurantById(String restaurantId) {
-        return restaurantMap.get(restaurantId);
+
+        Restaurant restaurant =  restaurantMap.get(restaurantId);
+
+        if(restaurant == null){
+            restaurant = restaurantDAO.getRestaurantById(restaurantId);
+            if(restaurant != null){
+                restaurantMap.put(restaurantId, restaurant);
+            }
+        }
+        return restaurant;
+
     }
 
     private void validateParameters(String name, String address, int capacity, LocalTime open, LocalTime close, List<LocalDate> closures) {
