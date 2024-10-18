@@ -2,10 +2,10 @@
 FROM openjdk:18-jdk-slim
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /Main
 
 # Copy the JAR file into the image
-COPY RestaurantReservationSystem-1.0-SNAPSHOT.jar /app/RestaurantReservationSystem-1.0-SNAPSHOT.jar
+COPY RestaurantReservationSystem-1.0-SNAPSHOT.jar /Main/RestaurantReservationSystem-1.0-SNAPSHOT.jar
 
 # Run the application
-CMD ["java", "-jar", "/app/RestaurantReservationSystem-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/Main/RestaurantReservationSystem-1.0-SNAPSHOT.jar"]
