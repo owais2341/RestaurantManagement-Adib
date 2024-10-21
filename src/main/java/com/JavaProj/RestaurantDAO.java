@@ -37,7 +37,7 @@ public class RestaurantDAO {
                 .append("close_time", restaurant.getClose().toString());
         
         try {
-            collection.insertOne(doc); // Insert new restaurant if no duplicate
+            collection.insertOne(doc); // Insert new restaurant if no duplicat
             System.out.println("Restaurant added successfully with ID: " + restaurant.getId());
         } catch (MongoWriteException e) {
             if (e.getError().getCategory().equals(com.mongodb.ErrorCategory.DUPLICATE_KEY)) {
