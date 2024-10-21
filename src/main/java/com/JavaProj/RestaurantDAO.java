@@ -16,8 +16,8 @@ public class RestaurantDAO {
     private MongoCollection<Document> collection;
 
     public RestaurantDAO() {
-        MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
-        MongoDatabase database = mongoClient.getDatabase("RestaurantReservationSystem");
+        MongoClient mongoClient = MongoClients.create("mongodb://root:my-password@my-mongodb:27017/admin");
+        MongoDatabase database = mongoClient.getDatabase("restaurant-db");
         collection = database.getCollection("restaurants");
     }
 
