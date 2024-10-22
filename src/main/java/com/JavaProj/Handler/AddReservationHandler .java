@@ -24,7 +24,7 @@ class AddReservationHandler implements HttpHandler {
             String requestBody = new String(exchange.getRequestBody().readAllBytes());
             JSONObject jsonRequest = new JSONObject(requestBody);
             
-            // Extracting required fields from the JSON request
+         
             String reservationId = jsonRequest.optString("reservationId");
             String restaurantId = jsonRequest.optString("restaurantId");
             String name = jsonRequest.optString("name");
