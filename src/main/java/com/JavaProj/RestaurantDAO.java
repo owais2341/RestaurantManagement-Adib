@@ -43,7 +43,7 @@ public class RestaurantDAO {
             if (e.getError().getCategory().equals(com.mongodb.ErrorCategory.DUPLICATE_KEY)) {
                 System.out.println("Duplicate Key Error: Restaurant with ID " + restaurant.getId() + " already exists.");
             } else {
-                throw e; // Rethrow if it's not a duplicate key error
+                throw e; // Rethrow if it's not a duplicate key er
             }
         }
     }
