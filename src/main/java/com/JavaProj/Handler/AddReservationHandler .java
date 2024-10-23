@@ -37,7 +37,7 @@ class AddReservationHandler implements HttpHandler {
             // Call addReservation with all required parame
                         // Call addReservation with all requirrame
                       // Call addReservation with all required param
-                      // Call addReservation with all required para
+                 
             String response = reservationManager.addReservation(restaurantId, name, email, phone, partySize, dateTime);
             exchange.sendResponseHeaders(200, response.getBytes().length);
             try (OutputStream os = exchange.getResponseBody()) {
