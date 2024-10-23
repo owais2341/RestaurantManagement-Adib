@@ -77,7 +77,7 @@ class AddRestaurantHandler implements HttpHandler {
                 return; // Exit the method if capacity is invalid
             }
 
-            // Call addRestaurant and handle response
+          
             String response = restaurantManager.addRestaurant(restaurantName, address, capacity, open, close, closures);
             exchange.sendResponseHeaders(200, response.getBytes().length);
             try (OutputStream os = exchange.getResponseBody()) {
