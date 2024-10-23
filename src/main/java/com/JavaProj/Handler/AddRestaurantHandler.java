@@ -64,7 +64,7 @@ class AddRestaurantHandler implements HttpHandler {
                 try (OutputStream os = exchange.getResponseBody()) {
                     os.write(response.getBytes());
                 }
-                return; // Exit the method if parsing fails
+                return; //]
             }
 
             // Validate capacity
