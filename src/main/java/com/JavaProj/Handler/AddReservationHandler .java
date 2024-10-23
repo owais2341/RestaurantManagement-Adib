@@ -34,9 +34,6 @@ class AddReservationHandler implements HttpHandler {
             String dateTimeStr = jsonRequest.optString("dateTime");
             LocalDateTime dateTime = LocalDateTime.parse(dateTimeStr, DateTimeFormatter.ISO_LOCAL_DATE_TIME);
 
-            
-                        
-                      // Call addReservation with all required param
                  
             String response = reservationManager.addReservation(restaurantId, name, email, phone, partySize, dateTime);
             exchange.sendResponseHeaders(200, response.getBytes().length);
