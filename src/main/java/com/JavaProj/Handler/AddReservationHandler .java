@@ -29,7 +29,7 @@ class AddReservationHandler implements HttpHandler {
             String restaurantId = jsonRequest.optString("restaurantId");
             String name = jsonRequest.optString("name");
             String email = jsonRequest.optString("email");
-            String phone = jsonRequest.optString("phone"); // Ensure you get the phone number
+            String phone = jsonRequest.optString("phone"); // Ensure you get the 
             int partySize = jsonRequest.optInt("partySize");
             String dateTimeStr = jsonRequest.optString("dateTime");
             LocalDateTime dateTime = LocalDateTime.parse(dateTimeStr, DateTimeFormatter.ISO_LOCAL_DATE_TIME);
