@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 class AddReservationHandler implements HttpHandler {
-    private final ReservationSystem reservationManager; // Reference to the ReservationManager
+    private final ReservationSystem reservationManager; 
 
     public AddReservationHandler(ReservationSystem reservationManager) {
         this.reservationManager = reservationManager;
