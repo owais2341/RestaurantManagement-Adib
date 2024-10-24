@@ -67,7 +67,7 @@ class AddRestaurantHandler implements HttpHandler {
                 return; //]
             }
 
-            // Validate capacity
+            
             if (capacity <= 0) {
                 String response = "Capacity must be a positive number.";
                 exchange.sendResponseHeaders(400, response.getBytes().length);
