@@ -20,7 +20,7 @@ public class RestaurantReservationHttpServer {
         // Set up the HTTP server listening on port 8080
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
       
-       
+       System.out.println("Image tag changed");
         server.createContext("/restaurant/add", new AddRestaurantHandler(restaurantManager));
         //server.createContext("/restaurant/get", new GetRestaurantHandler(restaurantManager));
         //server.createContext("/reservation/add", new AddReservationHandler(reservationSystem));
