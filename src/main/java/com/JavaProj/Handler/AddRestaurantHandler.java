@@ -65,6 +65,7 @@ class AddRestaurantHandler implements HttpHandler {
                     os.write(response.getBytes());
                 }
                 return; 
+            }
 
             
             if (capacity <= 0) {
