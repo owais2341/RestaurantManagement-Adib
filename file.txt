@@ -1,1 +1,2 @@
 "Line from branch1" 
+"Conflicting line from branch2" 
