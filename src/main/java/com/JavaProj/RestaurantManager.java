@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
+
 public interface RestaurantManager {
     
     String addRestaurant(String name, String address, int capacity, LocalTime open, LocalTime close, List<LocalDate> closures);

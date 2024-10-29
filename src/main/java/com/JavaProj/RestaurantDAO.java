@@ -28,7 +28,6 @@ public class RestaurantDAO {
             System.out.println("Restaurant with ID " + restaurant.getId() + " already exists. Skipping insertion.");
             return;
         }
-
         Document doc = new Document("_id", restaurant.getId())
                 .append("name", restaurant.getName())
                 .append("address", restaurant.getAddress())

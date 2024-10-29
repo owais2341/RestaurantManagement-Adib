@@ -1,2 +1,4 @@
-com\JavaProj\ReservationSystemImplTest.class
 com\JavaProj\RestaurantManagerImplTest.class
+com\JavaProj\RunCucumberTest.class
+com\JavaProj\ReservationSystemImplTest.class
+com\JavaProj\StepDefinitions.class
