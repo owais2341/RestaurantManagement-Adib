@@ -13,7 +13,6 @@ public class Restaurant {
     LocalTime close;
     List<LocalDate> closures;
     public Restaurant() {
-        // No-arg constructor
     }
     public Restaurant(String id, String name, String address, int capacity, LocalTime open, LocalTime close, List<LocalDate> closures) {
         this.id = id;
