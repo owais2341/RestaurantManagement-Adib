@@ -2,3 +2,4 @@
 "Conflicting line from branch2" 
 
 
+"Line from branch11" 
